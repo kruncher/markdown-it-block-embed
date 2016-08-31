@@ -77,7 +77,7 @@ describe("markdown-it-video", function () {
       allowFullScreen: true,
       allowInstancePlayerSizeDefinition: true,
       outputPlayerSize: false,
-      outputPlayerAspectRatio: true,
+      outputPlayerAspectRatio: true
     });
   });
 
