@@ -1,0 +1,13 @@
+Coverage. Instance size attributes
+
+.
+@[vimeo](19706846##123x45)
+.
+<div class="block-embed block-embed-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="123" height="45" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[example](x##5x6)
+.
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/x/42" frameborder="0" width="5" height="6" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
