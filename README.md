@@ -64,6 +64,7 @@ Option               | Type                 | Default                  | Descrip
 `containerClassName` | `string` \| `null`   | `'block-embed'`          | Class name for image container element.
 `serviceClassPrefix` | `string`             | `'block-embed-service-'` | Prefix for service name in CSS class.
 `outputPlayerSize`   | `boolean`            | `true`                   | Indicates if 'width' and 'height' attributes are written to output.
+`outputPlayerAspectRatio`   | `boolean`            | `false`                   | Indicates if a second container element with a `padding-top` percentage `style` attribute is written to output. This can be used for a dynamically-sized block whilst adhering to an aspect ratio. You must use `css` to absolutely position the iframe within this element
 `allowInstancePlayerSizeDefinition` | `boolean` | `false`              | Indicates whether individual player instances found within content may override the default size. Used by e.g.: `@[youtube](lJIrF4YjHfQ##400x300)`
 `allowFullScreen`    | `boolean`            | `true`                   | Indicates whether embed iframe should be allowed to enter full screen mode.
 `filterUrl`          | `function` \| `null` | `null`                   | A function that customizes url output. Signature: `function (url: string, serviceName: string, videoID: string, options: object): string`
@@ -74,7 +75,7 @@ Option               | Type                 | Default                  | Descrip
 `services.vine`      | `function`           | `VineService`            | Implementation of the 'vine' embed service. Can be overridden by a custom implementation.
 `services.prezi`     | `function`           | `PreziService`           | Implementation of the 'prezi' embed service. Can be overridden by a custom implementation.
                      |                      |                          |
-`{service-name}`     | `object`             | -                        | Options can be supplied to embed services. 
+`{service-name}`     | `object`             | -                        | Options can be supplied to embed services.
                      |                      |                          |
 `youtube.width`      | `number`             | `640`                    | Width of YouTube embed.
 `youtube.height`     | `number`             | `390`                    | Height of YouTube embed.
@@ -197,7 +198,7 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 @[prezi](1kkxdtlp4241)
 ```
 
-is interpreted as 
+is interpreted as
 
 ```html
 <div class="block-embed block-embed-service-prezi">
