@@ -1,0 +1,37 @@
+Coverage. Instance size attributes with aspect ratio
+
+.
+@[vimeo](19706846##123x45)
+.
+<div class="block-embed block-embed-service-vimeo"><div class="block-embed__viewport" style="padding-top: 36.58536585365854%"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+.
+
+.
+@[example](x##5x6)
+.
+<div class="block-embed block-embed-service-example"><div class="block-embed__viewport" style="padding-top: 120%"><iframe type="text/html" src="https://example.com/embed/x/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+.
+
+.
+@[vimeo](19706846##56.25)
+.
+<div class="block-embed block-embed-service-vimeo"><div class="block-embed__viewport" style="padding-top: 56.25%"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+.
+
+.
+@[example](x##120)
+.
+<div class="block-embed block-embed-service-example"><div class="block-embed__viewport" style="padding-top: 120%"><iframe type="text/html" src="https://example.com/embed/x/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+.
+
+.
+@[vimeo](19706846)
+.
+<div class="block-embed block-embed-service-vimeo"><div class="block-embed__viewport" style="padding-top: 56.2%"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+.
+
+.
+@[example](x)
+.
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/x/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

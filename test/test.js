@@ -72,6 +72,15 @@ describe("markdown-it-video", function () {
     });
   });
 
+  describe("with aspect ratio attributes", function () {
+    testFixtureWithExampleService("aspect-ratio", {
+      allowFullScreen: true,
+      allowInstancePlayerSizeDefinition: true,
+      outputPlayerSize: false,
+      outputPlayerAspectRatio: true,
+    });
+  });
+
   describe("providing custom services", function () {
     testFixture("custom-service", {
       services: {
