@@ -64,6 +64,7 @@ Option               | Type                 | Default                  | Descrip
 `containerClassName` | `string` \| `null`   | `'block-embed'`          | Class name for image container element.
 `serviceClassPrefix` | `string`             | `'block-embed-service-'` | Prefix for service name in CSS class.
 `outputPlayerSize`   | `boolean`            | `true`                   | Indicates if 'width' and 'height' attributes are written to output.
+`allowInstancePlayerSizeDefinition` | `boolean` | `false`              | Indicates whether individual player instances found within content may override the default size. Used by e.g.: `@[youtube](lJIrF4YjHfQ##400x300)`
 `allowFullScreen`    | `boolean`            | `true`                   | Indicates whether embed iframe should be allowed to enter full screen mode.
 `filterUrl`          | `function` \| `null` | `null`                   | A function that customizes url output. Signature: `function (url: string, serviceName: string, videoID: string, options: object): string`
                      |                      |                          |
