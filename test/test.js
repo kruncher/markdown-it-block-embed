@@ -65,6 +65,13 @@ describe("markdown-it-video", function () {
     });
   });
 
+  describe("with instance size attributes", function () {
+    testFixtureWithExampleService("instance-size-attributes", {
+      allowFullScreen: true,
+      allowInstancePlayerSizeDefinition: true
+    });
+  });
+
   describe("providing custom services", function () {
     testFixture("custom-service", {
       services: {
